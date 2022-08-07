@@ -1,0 +1,8 @@
+import { createContext } from "react";
+// 1. 调用createContext方法
+// 2. 通过顶层组件包裹一下 Context.Provider
+// 3. 底层组件 useContext(createContext返回的对象)
+
+const Context = createContext();
+
+export default Context;
